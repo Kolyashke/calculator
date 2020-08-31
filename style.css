@@ -1,0 +1,43 @@
+button{
+	width: 150px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	background-color:yellow;
+	border-radius: 15px;
+	font-size: 40pt;
+}
+button:hover {
+    background-color: khaki;
+}
+.number{
+	width: 150px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	background-color: red;
+	border-radius: 15px;
+	font-size: 40pt;
+}
+
+.number:hover {
+    background-color: crimson;
+}
+#zero {
+    width: 450px;
+}
+#calculate {
+    width: 600px;
+    background-color: cyan;
+}
+
+#calculate:hover {
+    background-color: paleturquoise;
+}
+#result{
+	font-size: 40pt;
+	text-align: right;
+}
+#resetAll {
+    width: 450px;
+}
