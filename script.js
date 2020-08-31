@@ -32,9 +32,9 @@ function clearTheInput(){
 	document.getElementById('result').value=0;
 }
 
-function signChange() { //смена знака
+function signChange() { 
     currentValue=document.getElementById('result').value;
-    if (currentValue == "0") //для 0 знак не меняется
+    if (currentValue == "0") 
         return;
 	else
    	document.getElementById('result').value=0-currentValue;
